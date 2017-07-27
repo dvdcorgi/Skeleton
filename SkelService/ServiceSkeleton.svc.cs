@@ -54,7 +54,6 @@ namespace SkelService
                                  select a).FirstOrDefault();
                 t.Name = tSkeleton.Name;
                 t.Code = tSkeleton.Code;
-                db.tblSkeletons.Add(t);
                 db.SaveChanges();
                 return true;
             }
