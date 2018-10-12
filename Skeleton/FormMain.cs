@@ -44,8 +44,8 @@ namespace Skeleton
 
         private void ClearAddItems()
         {
-            txtCodeAdd.Text = "";
-            txtItemAdd.Text = "";
+            txtCodeAdd.Text = "Dat";
+            txtItemAdd.Text = "Test";
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -87,8 +87,8 @@ namespace Skeleton
 
         private void ClearUpdateItems()
         {
-            txtCodeUpdate.Text = "";
-            txtItemUpdate.Text = "";
+            txtCodeUpdate.Text = "Cleared";
+            txtItemUpdate.Text = "Items";
         }
 
         private void listBoxSearch_SelectedIndexChanged(object sender, EventArgs e)
